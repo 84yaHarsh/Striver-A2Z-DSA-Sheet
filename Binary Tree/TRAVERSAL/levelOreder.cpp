@@ -28,6 +28,14 @@ vector<int>levelOrder(Node* root){
    return ans;
 }
 int main(){
-    
+    Node* temp = new Node(1);
+    temp->left = new Node(2);
+    temp->right = new Node(3);
+    temp->left->left = new Node(4);
+    temp->left->right = new Node(5);
+    temp->right->left = new Node(6);
+    temp->right->right = new Node(7);
+    levelOrder(temp);
+  
     return 0;
 }
