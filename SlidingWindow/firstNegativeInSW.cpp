@@ -30,8 +30,7 @@ vector<int>firstNegative(vector<int>&arr,int k){
             v.push_back(l.front());
             if(!l.empty() && arr[i] == l.front()){
                 l.pop_front();
-            }
-              
+            }    
         }
          i++;
         j++;
