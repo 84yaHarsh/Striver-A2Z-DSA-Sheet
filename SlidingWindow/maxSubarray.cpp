@@ -50,5 +50,8 @@ int main() {
 
     vector<int> res = maxSlidingWindow(arr, k);
 
-    for (int x : res) cout << x << " ";
+    for(int i=0; i<res.size(); i++){
+        cout<<res[i]<<" ";
+    }
+    return 0;
 }
