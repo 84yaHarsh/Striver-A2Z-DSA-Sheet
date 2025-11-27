@@ -1,4 +1,4 @@
-/**/
+/*MAXIMUM OF ALL SUBARRAY OF SLIDING WINDOW */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -15,7 +15,6 @@ vector<int> maxSlidingWindow(vector<int>& arr, int k) {
         while (!l.empty() && l.back() < arr[j]) {
             l.pop_back();
         }
-
         // STEP 2: Push current element
         l.push_back(arr[j]);
 
