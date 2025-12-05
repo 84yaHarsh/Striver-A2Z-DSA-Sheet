@@ -1,4 +1,4 @@
-/*MAXIMUM OF ALL SUBARRAY OF SLIDING WINDOW */
+/*MAXIMUM OF ALL SUBARRAY OF SLIDING WINDOW*/
 #include <bits/stdc++.h>
 using namespace std;
 
