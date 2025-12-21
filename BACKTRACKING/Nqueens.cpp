@@ -1,3 +1,6 @@
+ /*T.C -> O(N!) 
+ S.C -> RECURSION STACK -> O(N) , BOARD SPACE -> O(N^2) , L,UL,DL VECTORS SPACES -> O(N)
+   FINAL S.C -> O(N^2) */
 #include<bits/stdc++.h>
 using namespace std;
 void solve(int col, vector<string>&board, vector<vector<string>>&ans, 
