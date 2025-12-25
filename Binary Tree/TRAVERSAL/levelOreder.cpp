@@ -14,8 +14,7 @@ class Node{
 vector<int>levelOrder(Node* root){
    vector<int>ans;
    if(root == NULL) return ans;
-    queue<Node*>q;
-   
+   queue<Node*>q;
    q.push(root);
    Node*temp;
    while(!q.empty()){
