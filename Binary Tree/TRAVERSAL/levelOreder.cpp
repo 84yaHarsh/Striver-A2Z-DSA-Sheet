@@ -34,7 +34,7 @@ int main(){
     temp->left->right = new Node(5);
     temp->right->left = new Node(6);
     temp->right->right = new Node(7);
-    levelOrder(temp);
+    levelOrder(temp);   
   
     return 0;
 }
